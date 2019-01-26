@@ -18,14 +18,14 @@
   
     - name: Login to docker
       docker_login:
-        username: sudhakaran
-        password: "kavikayal@21"
-        email: "murusudha@gmail.com"
+        username: nishanth2025
+        password: Marykannan@2025
+        email: kannan.nishanth25@gmail.com
 
-    - name: Launch docker container 
+    - name: Launch docker container
       docker_container:
-        name: testapp
-        image: sudhakaran/testapp:v1
+        name: jenkinstest
+        image: nishanth2025/testapp:v1
         ports:
           - "4040:8080"
 
