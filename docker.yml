@@ -26,8 +26,7 @@
       docker_container:
         name: testapp
         image: sudhakaran/testapp:v1
-        ports:
-	  - "4040:8080"
+        ports: "4040:8080"
 
   handlers:
     - name: start docker
