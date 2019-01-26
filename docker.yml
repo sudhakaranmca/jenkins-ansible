@@ -21,6 +21,7 @@
         username: sudhakaran
         password: "kavikayal@21"
         email: "murusudha@gmail.com"
+
     - name: launch docker
       docker_container:
         name: testapp
