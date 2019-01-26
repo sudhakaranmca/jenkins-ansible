@@ -1,4 +1,4 @@
-  ---
+---
 - hosts: all
   tasks:
     - name: Add Docker Signing Key
