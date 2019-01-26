@@ -22,13 +22,6 @@
         password: "kavikayal@21"
         email: "murusudha@gmail.com"
 
-    - name: Launch docker container 
-      docker_container:
-        name: testapp
-        image: sudhakaran/testapp:v1
-        ports:
-          - "4040:8080"
-
   handlers:
     - name: start docker
       service: name=docker state=started
