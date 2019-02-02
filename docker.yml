@@ -16,12 +16,6 @@
       notify:
        - start docker
   
-    - name: Login to docker
-      docker_login:
-        username: sudhakaran	
-        password: kavikayal@21
-        email: murusudha@gmail.com
-
     - name: Launch
       docker_container:
         name: testing to launch docker
