@@ -22,12 +22,12 @@
         password: kavikayal@21
         email: murusudha@gmail.com
 
-    - name: Launch docker container
+    - name: Launch
       docker_container:
-        name: jenkinstest
+        name: testing to launch docker
         image: sudhakaran/testapp:v1
         ports:
-          - "4040:8080"
+           - "4040:8080"
   handlers:
     - name: start docker
       service: name=docker state=started
