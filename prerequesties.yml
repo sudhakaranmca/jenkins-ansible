@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+     - name: Install Pip
+       apt: pkg=python-pip state=installed update_cache=true
+
+     - name: Install Docker-py
+       pip:
+          name: docker-py
